@@ -1,0 +1,15 @@
+{
+  "name": "ejercitacion-evolucion-ecmascript",
+  "version": "1.0.0",
+  "description": "Ejercitacion sobre evolucion de ECMAScript en JavaScript",
+  "main": "homework.js",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
