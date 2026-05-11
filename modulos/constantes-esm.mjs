@@ -1,7 +1,7 @@
-export const standardModulo = "ES Modules";
-export const sintaxisImport = "import/export";
+export const standardModulo = 'ES Modules';
+export const sintaxisImport = 'import/export';
 
 export default {
   standardModulo,
-  sintaxisImport
+  sintaxisImport,
 };

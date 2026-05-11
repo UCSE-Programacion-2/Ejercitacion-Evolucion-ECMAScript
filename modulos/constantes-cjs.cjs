@@ -1,7 +1,7 @@
-const nombreMotor = "Node.js";
-const versionObjetivo = ">=22";
+const nombreMotor = 'Node.js';
+const versionObjetivo = '>=22';
 
 module.exports = {
   nombreMotor,
-  versionObjetivo
+  versionObjetivo,
 };

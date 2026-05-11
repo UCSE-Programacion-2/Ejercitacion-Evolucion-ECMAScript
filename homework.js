@@ -111,5 +111,5 @@ module.exports = {
   diasEntreFechas,
   explicarConcurrenciaYParalelismo,
   promesaDemorada,
-  promesaConValidacion
+  promesaConValidacion,
 };

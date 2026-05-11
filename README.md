@@ -2,6 +2,13 @@
 
 Este repositorio esta orientado a practicar la evolucion del lenguaje JavaScript desde sintaxis clasica hacia caracteristicas modernas de ECMAScript.
 
+## Herramientas de editor (ESLint / Prettier / VS Code)
+
+En la raiz estan `.vscode/`, `.eslintrc.json`, `.prettierrc.js`, `.prettierignore` y `.env.example`. La carpeta `Configuration-Files/backend-nodejs/` es una copia de referencia del kit del curso (su `README` describe un stack Express/Mongo; **este ejercicio es Jest + Node**).
+
+- `npm run lint` / `npm run lint:fix`
+- `npm run format` / `npm run format:check`
+
 ## Objetivo general
 
 Completar las funciones de `homework.js` para resolver ejercicios progresivos sobre:
@@ -77,7 +84,7 @@ Si `homework.js` todavia tiene funciones incompletas, **la suite puede fallar** 
 Permite expresar una decision simple en una sola linea:
 
 ```js
-const estado = edad >= 18 ? "mayor" : "menor";
+const estado = edad >= 18 ? 'mayor' : 'menor';
 ```
 
 Es util cuando la condicion y ambos resultados son cortos y legibles.
@@ -94,7 +101,7 @@ module.exports = { ... };
 ES Modules es el estandar moderno:
 
 ```js
-import { algo } from "./archivo.mjs";
+import { algo } from './archivo.mjs';
 export const valor = 1;
 ```
 
@@ -135,7 +142,7 @@ Regla clave: el parametro rest va siempre al final.
 - `??` define valor de respaldo solo para `null` o `undefined`.
 
 ```js
-const color = usuario?.preferencias?.color ?? "sin-preferencia";
+const color = usuario?.preferencias?.color ?? 'sin-preferencia';
 ```
 
 ### 6) Desestructuracion
